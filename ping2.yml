@@ -1,1 +1,4 @@
-
+- hosts: algiers
+  tasks:
+    - name: test connection
+      ping:
