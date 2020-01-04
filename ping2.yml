@@ -1,4 +1,6 @@
-- hosts: algiers
+- hosts: ec2-52-207-243-178.compute-1.amazonaws.com
+user: ec2-user
+sudo: yes
   tasks:
     - name: test connection
       ping:
