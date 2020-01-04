@@ -1,4 +1,4 @@
-- hosts: ec2-52-207-243-178.compute-1.amazonaws.com
+- hosts: 52.207.243.178
   tasks:
     - name: test connection
       ping:
