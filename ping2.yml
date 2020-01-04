@@ -1,4 +1,4 @@
-- hosts: 52.207.243.178
+- hosts: algiers
   tasks:
     - name: test connection
       ping:
