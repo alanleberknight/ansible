@@ -1,6 +1,4 @@
 - hosts: algiers
-  become: yes
-  become_user: ec2-user
   tasks:
     - name: test connection
       ping:
