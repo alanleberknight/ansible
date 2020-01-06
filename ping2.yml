@@ -1,5 +1,5 @@
 - hosts: all
-  remote_user: ec2-user
+  remote_user: ec2-user -i ~/.ssh/aws-gold-instances.pem
   tasks:
     - name: test connection
       ping:
