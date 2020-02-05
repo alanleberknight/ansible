@@ -1,4 +1,4 @@
-- hosts: localhost
+- hosts: localvm
   tasks:
     - name: test connection
       ping:
